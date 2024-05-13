@@ -9,4 +9,6 @@ console.log(producto);
 //supongamos que queremos acceder al nombre o al precio, con la sintaxis del punto .
 console.log(producto.nombre); 
 console.log(producto.precio);
-
+//otra forma menos común son los []
+console.log(producto['nombre']);
+console.log(producto['precio']);
