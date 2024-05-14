@@ -10,3 +10,9 @@ const producto = {
     }
 }
 
+const {nombre, informacion, informacion:{peso, medida}} = producto;
+
+console.log('mostrar el nombre ',nombre);
+console.log('mostrar producto ',producto);
+console.log('el peso ',peso);
+console.log('esta es la medida ',medida);
