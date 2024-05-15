@@ -4,7 +4,7 @@
 
 const producto = {
     nombre:'Monitor 10 pulgadas',
-    preci: 200,
+    precio: 200,
     disponible: true
 }
 
@@ -16,3 +16,10 @@ const medida = {
 //una forma de hacelo es con el Objeto Method llamado
 //assign
 
+//const resultado = Object.assign(producto, medida);
+//console.log(resultado);
+console.log(producto);
+
+const resultado1 = Object.assign({}, producto, medida);
+console.log(producto);
+console.log(resultado1);
