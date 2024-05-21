@@ -19,3 +19,11 @@ function sumar(){
 }
 
 sumar(); //llamada ala función sumar
+
+//Expresión de función, Este tipo de funciones se asgna como si fuese una variable
+const sumar2 = function(){
+    console.log( 3 + 3 );
+}
+
+sumar2();
+
