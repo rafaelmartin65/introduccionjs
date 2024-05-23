@@ -5,3 +5,19 @@
 //si no te dirá que hay un error, si es válido despuès eliges la operación que deseas realizar, si quieres retirar dinero del cajero
 //va a evisar que tengas saldo.
 
+//Operador if
+const puntos = 1000;
+
+if(puntos == 1000){
+    console.log("si es Igual");
+}else{
+    console.log("no es igual");
+}
+
+//los if else tambiénm pueden sin llaves, pero esa sintaxis no es muy común en JavaScript
+
+if(puntos == 1000)
+    console.log("si es Igual");
+
+else
+    console.log("no es igual");
