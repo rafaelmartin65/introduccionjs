@@ -8,11 +8,7 @@ while ( i < 10){
 }
 
 
-let j = 0;
-do{
-    console.log(`Numero ${j}`);
-    j++;
-}while ( j < 10);
+
 
 // crea una función que genere 100 números aleatorios entre 1 y 1000, que no se repitan y luego mostrarlos por pantalla.
 console.log(`Aleatorio. `, aleatorios(1,1000));
