@@ -25,6 +25,11 @@ let resultado = carrito.reduce((total, producto) => total += producto.precio,0);
 console.log(total);
 
 
+
+/***************************************/
+/* Ejercicios en clase
+/*
+****************************************/
 //Realiza un programa en JavaScript que cuente el número de vocales que tiene un texto.
 const vocales = ["a","e","i","o","u","á","é","í","ó","ú"];
 
