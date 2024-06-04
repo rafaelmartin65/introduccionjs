@@ -109,7 +109,7 @@ img {
     color: white;
     grid-row: 1 / 2;
     visibility: hidden;
-
+}
 .contenido-hero form {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
