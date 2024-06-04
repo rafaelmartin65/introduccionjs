@@ -15,3 +15,7 @@ console.log("textContent -->", encabezado.textContent);
 console.log("innerText -->", encabezado.innerText);
 
 // Puedes ver que con innerText no puedes acceder a ese contenido si tenemos CSS visibility:hidden
+
+//En caso de encadenamiento
+const textoEncabezado = document.querySelector('.contenido-hero h1').textContent;
+console.log(textoEncabezado);
