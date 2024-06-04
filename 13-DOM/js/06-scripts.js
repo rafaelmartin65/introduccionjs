@@ -19,3 +19,4 @@ console.log("innerText -->", encabezado.innerText);
 //En caso de encadenamiento
 const textoEncabezado = document.querySelector('.contenido-hero h1').textContent;
 console.log(textoEncabezado);
+
