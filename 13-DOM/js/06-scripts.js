@@ -1,0 +1,17 @@
+/**Seleccionar elementos del DOM nos va a permitir
+ * modificar nuestros HTML y hacerlo más interactivo...
+*/
+
+/**Veamos por ejemplo como modificar el texto de la parte superior ...*/
+
+/**Primero tenemos que seleccionarlo */
+
+const encabezado = document.querySelector('.contenido-hero h1');
+console.log(encabezado);
+//Si deseas acceder al texto hay 3 formas de hacerlo
+//Aunque este oculto con la regla CSS visibilñity: hidden, igual lo muestra
+console.log("innerHTML -->", encabezado.innerHTML);
+console.log("textContent -->", encabezado.textContent);
+console.log("innerText -->", encabezado.innerText);
+
+// Puedes ver que con innerText no puedes acceder a ese contenido si tenemos CSS visibility:hidden
