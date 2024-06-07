@@ -18,4 +18,10 @@ formulario.addEventListener('submit', e => {
 
 /** Realiza un script que simule el juego de piedra, papel o tijera 
  *  
+ *  0-Piedra 1-Papel 2-Tijera
 */
+
+/** Realiza un script del juego 3 en línea, asocie el evento click de los nueve botones a una única función.
+ * Alternar ente la X y O. Mostrar un mensaje cuando gana un jugador
+ * 
+ */
