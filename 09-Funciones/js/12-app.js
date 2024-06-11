@@ -16,5 +16,5 @@ const nuevoArray2 = carrito.forEach(producto => console.log(`Articulo: ${product
 console.log(nuevoArray);
 console.log(nuevoArray2);
 
-// los arow function si no se coloca el return y queda en una sola línea dan por implícito el return
+// los arKsrow function si no se coloca el return y queda en una sola línea dan por implícito el return
 
