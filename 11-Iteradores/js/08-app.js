@@ -47,6 +47,7 @@ console.log(`*********************************`)
 /*************************************************** */
 // Version mejorada
 // Función para generar un resultado aleatorio de un marcador de fútbol
+/************************************************************************* */
 function generarMarcador(max) {
     const a = Math.floor(Math.random() * (max + 1)); // Genera un número aleatorio entre 0 y max
     const b = Math.floor(Math.random() * (max + 1)); // Genera un número aleatorio entre 0 y max

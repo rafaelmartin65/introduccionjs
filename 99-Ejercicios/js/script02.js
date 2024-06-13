@@ -1,6 +1,6 @@
 
 /***************************************/
-/* Ejercicios en clase
+/* Ejercicios en clase 29/05/2024
 /*
 ****************************************/
 //Realiza un programa en JavaScript que cuente el número de vocales que tiene un texto.
@@ -20,8 +20,11 @@ for (let i = 0; i < palabra.length; i++){
 }
 console.log("La palabra es: ", palabra);
 console.log("El total de vocales es: ", cuenta);
-
-//realiza un programa en JavaScript que pida una cadena de texto y la devuelva al revés
+/************************************************************************************ */
+/**realiza un programa en JavaScript que pida una cadena de texto y la devuelva al revés
+/**
+ * 
+ **************************************************************************************/
 let palabra1 = prompt("Escribe una palabra");
 let reves = "";
 let y = 1;
