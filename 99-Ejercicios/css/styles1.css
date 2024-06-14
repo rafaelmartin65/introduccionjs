@@ -254,9 +254,8 @@ img {
 }
 
 .contenido-hero {
-    display: grid;
-    grid-template-columns: 5% auto 5%;
-    grid-template-rows: max-content auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .contenido-hero h1 {
